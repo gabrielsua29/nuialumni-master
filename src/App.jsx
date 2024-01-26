@@ -11,6 +11,7 @@ import Home from './components/Home'
 //importamos la función createBrowserRouter y el componente RouterProvider
 //de la librería react-router-dom
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import ARGabriel from './components/ARGabriel'
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: '/ar',
         element: <AR />
+      },
+      {
+        path: 'argabriel',
+        element: <ARGabriel />
       }
     ]
   }

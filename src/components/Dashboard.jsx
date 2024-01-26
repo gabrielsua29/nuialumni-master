@@ -23,7 +23,9 @@ function Dashboard() {
                         <Grid item xs={12} md={2} lg={2}>        
                             <Link to={'/ar'} style={{textDecoration:'none', color:'white'}}>AR</Link>
                         </Grid>
-
+                        <Grid item xs={12} md={2} lg={2}>        
+                            <Link to={'/argabriel'} style={{textDecoration:'none', color:'white'}}>ARGabriel</Link>
+                        </Grid>  
                         
                     </Grid>
                 </Toolbar >
